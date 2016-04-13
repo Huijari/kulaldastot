@@ -26,7 +26,7 @@ const wiki = (address) => {
   document.getElementById('player').innerText = players[today];
 })();
 
-reqwest('https://raw.githubusercontent.com/huijari/kulaldastot/master/log.md')
+reqwest('log.md')
   .then(response => render(response))
   .then(anchor);
 
