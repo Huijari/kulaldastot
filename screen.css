@@ -1,0 +1,61 @@
+/* Copyright 2016 github.com/huijari */
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+a {
+  color: #48b;
+}
+
+body {
+  background: #fbfbfb;
+  color: #444;
+  font-family: Lora;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: 2px;
+  margin: 0 0 8px;
+}
+
+hr {
+  border: none;
+  border-bottom: 2px dotted #bbb;
+}
+
+img {
+  max-width: 100%;
+}
+
+ol {
+  padding: 0;
+}
+
+ol > li {
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 16px;
+}
+
+ul > li {
+  line-height: 1.6em;
+}
+
+#content {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08192);
+  margin: 0 auto;
+  max-width: 32em;
+  padding: 32px;
+}
+
+#player {
+  font-weight: bolder;
+  line-height: .8192em;
+  opacity: .064;
+  position: absolute;
+  font-size: 16em;
+}
